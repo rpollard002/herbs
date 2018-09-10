@@ -1,0 +1,439 @@
+/* Global table settings */
+table.list_views
+{
+    empty-cells: show;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    width: 100%;
+}
+table.list_views tr {
+    /* Gray dimensional look */
+    background: -webkit-linear-gradient(#f7f7f7, #dedede); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f7f7f7, #dedede); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f7f7f7, #dedede); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f7f7f7, #dedede); /* Standard syntax */
+
+    /* Blue dimensional look */
+    /* background: -webkit-linear-gradient(#b1e7ff, #709aff);  For Safari 5.1 to 6.0 */
+    /* background: -o-linear-gradient(#b1e7ff, #709aff); For Opera 11.1 to 12.0 */
+    /* background: -moz-linear-gradient(#b1e7ff, #709aff);  For Firefox 3.6 to 15 */
+    /* background: linear-gradient(#b1e7ff, #709aff);  Standard syntax */
+
+    padding: 2px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #81817b;
+    border-width: 1px;
+}
+table.list_views th
+{
+
+    /* Gray dimensional look */
+    background: -webkit-linear-gradient(#deded4, #f6f9f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#deded4, #f6f9f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#deded4, #f6f9f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dedede, #f7f7f7); /* Standard syntax */
+    padding: 2px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #070707;
+    border-width: 1px;
+}
+
+.list_views tr:hover th[scope=row], .list_views tr:hover td
+{
+    background-color: #41b580;
+}
+.list_views tr:hover
+{
+    background-color: #41b580;
+}
+table.input_tables
+{
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+}
+table.input_tables td
+{
+    padding: 2px;
+}
+.input_tables td:nth-child(1)
+{
+    text-align: left;
+    vertical-align: top;
+    font-weight: bolder;
+    border-collapse: collapse;
+    border-right-width: 1px;
+}
+
+
+#captcha {
+    width: 100px !important;
+    display: inline-block !important;
+}
+.container
+{
+margin: 10px;
+}
+table#formula_data
+{
+    margin: 5px;
+    padding: 2px;
+}
+.herb_list
+{
+    float: left;
+    margin-right: 10px;
+    cellpadding: 5px;
+    width: 30%;
+}
+#herb_block
+{
+    width: 350px;
+}
+.herb_list_data
+{
+    max-width: 100%;
+}
+.herb_list_div_class
+{
+    width: 100%;
+}
+.herb_benefits_height
+{
+    height: 60px;
+    overflow: hidden;
+}
+table#herb_table
+{
+    width: 100%;
+}
+table.herb_formula_class
+{
+    empty-cells: show;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    /* background: #bcd0e4 url("/assets/widget-table-bg.jpg") top left repeat-x; */
+
+}
+
+.herb_formula_class th[scope=col]
+{
+    border-right: 1px dotted #666;
+}
+.herb_formula_class th[scope=col]
+{
+    border-bottom: 2px solid #333;
+    border-right: 2px solid #333;
+}
+
+#herb_selector
+{
+    height: 503px;
+    width: 1900px;
+}
+
+#herb_detail_info
+{
+    /* Gray dimensional look */
+    background: #efefef;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+
+    height: 350px !important;
+    width: 700px !important;
+    visibility: hidden;
+    position: absolute;
+
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #8e8e8e;
+    border-width: 1px;
+}
+#herb_detail_data
+{
+    width: 98%;
+}
+#herb_name_benefits
+{
+    overflow: scroll;
+    height: 300px;
+}
+.herb_name_info_heading
+{
+    font-weight: bold;
+}
+#herb_detail_headings
+{
+    width: 20%;
+    float: left;
+}
+.data_blocks
+{
+    margin: 5px;
+}
+div#movement
+{
+    width: 10%;
+    float: left;
+}
+#formula_div_class{
+
+    width: 100%;
+}
+table#formula_list_data.formula_list_data td
+{
+    margin: 5px;
+    padding: 2px;
+}
+.button_bar
+{
+    background-color: #e1edff;
+    border-style: solid;
+    border-color: #c1bfc1;
+    border-width: 1px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 10;
+}
+/*
+** Herb Ingredients Table column sizing
+*/
+
+.ingredient_herb_class
+{
+    width: 300px;
+}
+.input_3
+{
+    width: 65px;
+}
+.input_4
+{
+    width: 65px;
+}
+.input_5
+{
+    width: 65px;
+}
+.negative_amount
+{
+    color: red;
+}
+.button_disabled
+{
+    color: lightgray;
+}
+.button_enabled
+{
+    color: black;
+}
+
+
+nav ul
+{
+    background: #efefef;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+
+}
+nav ul li:hover a {
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px 25px;
+    color: #757575;
+    text-decoration: none;
+}
+
+nav ul ul {
+    background: #5f6975;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    padding: 15px 25px;
+    color: #fff;
+}
+nav ul ul li a:hover {
+    background: #4b545f;
+}
+
+.qty_received
+{
+    width: 96px;
+}
+.qty_received_input
+{
+    width: 95px;
+}
+.fixed {
+    position:fixed;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #CC3333;
+}
+/*ul.menu li ul.sub-menu {*/
+/*display:none;*/
+/*position: absolute;*/
+/*top: 30px;*/
+/*left: 0;*/
+/*width: 100px;*/
+
+/*}*/
+/*ul.menu li:hover ul.sub-menu {*/
+    /*display:inline-block;*/
+    /*list-style-type: none;*/
+    /*margin-top: 15px;*/
+    /*margin-left: 5px;*/
+    /*padding: 10px;*/
+    /*background-color: #eaeaea;*/
+/*}*/
+
+/* Menu styling */
+/*
+div.menu
+{
+    background-color: green;
+}
+div.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+ul.menu
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul.menu li
+{
+    display: inline-block;
+}
+ul.menu li:hover
+{
+    background: #d0d0d0;
+}
+ul.menu li:hover ul
+{
+    display: block;
+}
+ul.menu li ul
+{
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+ul.menu li ul.sub-menu li
+{
+    background: #aaaaaa;
+    display: block;
+}
+ul.menu li ul.sub-menu li a
+{
+    display:block !important;
+}
+ul.menu li ul.sub-menu li:hover
+{
+    background: #666;
+}
+*/
+
+/* Alternative menu */
+
+/*ul {list-style: none;padding: 0px;margin: 0px;}*/
+/*ul li {display: block;position: relative;float: left;border:1px solid #000}*/
+/*li ul {display: none;}*/
+/*ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;*/
+    /*white-space: nowrap;color: #fff;}*/
+/*ul li a:hover {background: #f00;}*/
+/*li:hover ul {display: block; position: absolute;}*/
+/*li:hover li {float: none;}*/
+/*li:hover a {background: #f00;}*/
+/*li:hover li a:hover {background: #000;}*/
+/*#menu li ul li {border-top: 0px;}*/
+
+
+/* Another menu */
+/*ul#menu, ul#menu ul.sub-menu {*/
+    /*padding:0;*/
+    /*margin: 0;*/
+/*}*/
+/*ul#menu li, ul#menu ul.sub-menu li {*/
+    /*list-style-type: none;*/
+    /*display: inline-block;*/
+/*}*/
+/*Link Appearance*/
+/*ul#menu li a, ul#menu li ul.sub-menu li a {*/
+    /*text-decoration: none;*/
+    /*color: #fff;*/
+    /*background: #666;*/
+    /*padding: 5px;*/
+    /*display:inline-block;*/
+/*}*/
+/*Make the parent of sub-menu relative*/
+/*ul#menu li {*/
+    /*position: relative;*/
+/*}*/
+/*sub menu*/
+/*ul#menu li ul.sub-menu {*/
+    /*display:none;*/
+    /*position: absolute;*/
+    /*top: 30px;*/
+    /*left: 0;*/
+    /*width: 100px;*/
+/*}*/
+/*ul#menu li:hover ul.sub-menu {*/
+    /*display:block;*/
+/*}*/

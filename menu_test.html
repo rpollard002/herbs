@@ -1,0 +1,83 @@
+<html>
+<head>
+    <style type="text/css">
+        /*Initialize*/
+        ul#menu, ul#menu ul.sub-menu {
+            padding:0;
+            margin: 0;
+        }
+        ul#menu li, ul#menu ul.sub-menu li {
+            list-style-type: none;
+            display: inline-block;
+        }
+        /*Link Appearance*/
+        ul#menu li a, ul#menu li ul.sub-menu li a {
+            text-decoration: none;
+            color: #fff;
+            background: #666;
+            padding: 5px;
+            display:inline-block;
+        }
+        /*Make the parent of sub-menu relative*/
+        ul#menu li {
+            position: relative;
+        }
+        /*sub menu*/
+        ul#menu li ul.sub-menu {
+            display:none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            width: 100px;
+        }
+        ul#menu li:hover ul.sub-menu {
+            display:block;
+        }
+    </style>
+</head>
+<ul id="menu">
+    <li>
+        <a href="#">Menu 1</a>
+    </li>
+    <li><a href="#">Menu 2</a>
+
+        <ul class="sub-menu">
+            <li>
+                <a href="#">Sub Menu 1</a>
+            </li>
+            <li>
+                <a href="#">Sub Menu 2</a>
+            </li>
+            <li>
+                <a href="#">Sub Menu 3</a>
+            </li>
+            <li>
+                <a href="#">Sub Menu 4</a>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">Menu 3</a>
+
+    </li>
+    <li><a href="#">Menu 4</a>
+
+        <ul class="sub-menu">
+            <li>
+                <a href="#">Sub Menu 1</a>
+            </li>
+            <li>
+                <a href="#">Sub Menu 2</a>
+            </li>
+            <li>
+                <a href="#">Sub Menu 3</a>
+            </li>
+            <li>
+                <a href="#">Sub Menu 4</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Menu 5</a>
+    </li>
+</ul>
+</html>
